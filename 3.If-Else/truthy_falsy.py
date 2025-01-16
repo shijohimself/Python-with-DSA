@@ -7,13 +7,16 @@ INT
 
 FLOAt
 
--1.1, 1.1 ,100.23 , 24.67 , -678.89 -> Truthy values
+-1.1, 1.1 ,100.23 , 24.67 , -678.89 , 0.000872 -> Truthy values
 0 -> Falsy
 
+STRING
+abc , xyz, " ", "," -> Truthy
+"" -> Falsy 
 """
 
-age = 45
-if 77.836:
-    print(f"{age} years old!")
-else:
-    print("Child")
+# age = 45
+# if 88:
+#     print(f"{age} years old!")
+# else:
+#     print("Child")
