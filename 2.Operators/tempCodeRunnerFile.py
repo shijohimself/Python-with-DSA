@@ -1,0 +1,1 @@
+print(physics > 33 and chemistry > 33)
