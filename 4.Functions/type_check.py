@@ -5,7 +5,7 @@ def type_check(a):
     #     return True
     # return False
 
-    if isinstance(a,int):
+    if isinstance(a,int): # isinstance returns boolean value!
         return True
     return False
 
