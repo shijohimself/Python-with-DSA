@@ -7,4 +7,3 @@ def is_curzon(num):
     return False
 
 print(is_curzon(number))
-
