@@ -5,7 +5,9 @@
 # my_list.append(100)
 # my_list.append("xyz")
 # print(my_list)
+from typing import List
 
-my_list:list[int] = [100,200,300,23]
+# my_list:list[int] = [100,200,300,23]
+my_list:List[int] = [100,200,300,23]
 my_list.append(24)
 print(my_list)
