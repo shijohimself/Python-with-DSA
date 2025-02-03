@@ -1,3 +1,4 @@
+# swapcase
 my_str = "ASBHJAGHJDGs dasdjbjkahsh *&^*&(5687;;;866[])"
 
 result = ''
