@@ -7,3 +7,4 @@ print(my_list)
 
 
 print(sorted("HTERUYHGH#$$%&"))
+#sort according to ascii value
