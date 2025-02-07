@@ -1,3 +1,4 @@
+# dictionaries are key:value -> unique,ordered
 my_dict = {
     "name": "Shijo",
     "age": 22,

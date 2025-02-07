@@ -20,5 +20,5 @@ answer = checkAlphaNumeric(my_str)
 if answer == True:
     print(f"{answer} Yes it is alphanumeric")
 else:
-    print(f"{answer }No it is not")
+    print("No it is not")
     
