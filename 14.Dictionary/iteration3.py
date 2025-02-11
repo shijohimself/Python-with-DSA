@@ -9,5 +9,5 @@ marks = {
 result = marks.items()
 print(result)
 
-for k,v in result:
+for k,v in result: # unpacking
     print(k,v)

@@ -10,7 +10,7 @@ marks: Dict[str,int] = {
 print(marks)
 
 marks["sst"] = 100
-marks["sanskrit"] = 90
+marks["sanskrit"] = 90 # if key does not exist then added
 
 # marks.update({"sanskrit": 89})
 # marks.update({"maths":90})
