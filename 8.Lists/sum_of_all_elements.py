@@ -1,12 +1,8 @@
-my_list = [1,2,3,4,5,6,7,8,24,76,87,98,123]
-
-n = len(my_list)
-count = 0
-for i in range(0,n):
-    count += my_list[i]
-print(count)
+# Find the sum of all the elements in the list
+myList = [1,2,3,4,5,6,7,8,9,4,5,6,2]
 
 total = 0
-for i in my_list:
-    total += i
+n = len(myList)
+for index in range(0,n):
+    total += myList[index]
 print(total)

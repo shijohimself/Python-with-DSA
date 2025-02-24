@@ -7,3 +7,14 @@ n = len(my_list)
 # iteration by index
 for i in range(n-1,-1,-1):
     print(my_list[i], end = " ")
+
+# # Using range() to iterate over a list
+# courses = ['java','python','pandas','sparks']
+# for x in range(len(courses)):
+#     print(courses[x])
+
+print()
+# print values in reverse
+courses = ['java','python','pandas','sparks']
+for x in range(len(courses)-1,-1,-1):
+    print(courses[x])

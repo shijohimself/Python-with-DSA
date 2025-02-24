@@ -1,5 +1,6 @@
-my_list = [1,2,3,4,"Shijo",True,9.48]
-print(my_list[1])
-print(my_list[0])
-print(my_list[-1])
-print(my_list[-3])
+colors = ['red', 'green', 'blue', 'yellow', 'white', 'black']
+
+print(colors[0])
+print(colors[2])
+print(colors[4])
+print(colors[3])
