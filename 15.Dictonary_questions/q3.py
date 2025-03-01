@@ -7,5 +7,5 @@ details = {
 
 total = 0
 for key in details:
-    total = sum(details[key])
+    total = sum(details[key]
     print(total)
