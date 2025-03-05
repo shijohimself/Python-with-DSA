@@ -7,4 +7,4 @@ elif num % 3 == 0:
 elif num % 5 == 0:
     print("BAR")
 else:
-    print("Inavlid")
+    print("invalid number")
