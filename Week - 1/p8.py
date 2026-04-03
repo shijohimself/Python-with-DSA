@@ -1,0 +1,10 @@
+start = int(input("Enter start number: "))
+end = int(input("Enter end number: "))
+
+i = start
+j = end
+
+while i <= j:
+    print(i)
+    i += 1
+print("Finished printing numbers from", start, "to", end)
