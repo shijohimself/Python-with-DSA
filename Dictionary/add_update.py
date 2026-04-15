@@ -16,3 +16,12 @@ print(mydict)
 # method - 2
 mydict.update({"nationality": "india" , "name" : "Batman"})
 print(mydict)
+
+# del mydict
+# print(mydict) # because the dict will be deleted!
+
+mydict.pop("age")
+print(mydict)
+
+mydict.popitem()
+print(mydict)
