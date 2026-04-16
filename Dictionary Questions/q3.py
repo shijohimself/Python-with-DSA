@@ -4,6 +4,6 @@ mydict = {
     "science" : 78,
     "maths" : 87,
 }
-
-for k in mydict:
-    print(f"{k} = {mydict[k]}")
+print(mydict.items())
+for k,v in mydict.items():
+    print(f"{k} = {v}")
