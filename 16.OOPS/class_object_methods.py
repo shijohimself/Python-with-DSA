@@ -1,21 +1,23 @@
 class Student:
-    # class variables/attributes
-    id = 0
-    name = ""
-    gender = ""
-    age = 0
 
-    #methods
-
+    def __init__(self):
+        self.name = input("enter name = ")
+        self.address = input("enter address = ")
+        self.age = int(input("enter age = "))
+        self.gender = input("enter gender = ")
+        
+    # methods
+    def info(self):
+        print(f"name = {self.name}")
+        print(f"age = {self.age}")
+        print(f"gender = {self.gender}")
+       
 s1 = Student()
 s2 = Student()
-
-s1.id = 1
-s1.age = 10
-s1.gender = "M"
-s1.name = 'Aviansh'
-print(s1) # address
-print(s1.age)
+s3 = Student()
+s1.name = "Shijo"
 print(s1.name)
-print(s1.id)
-print(s1.gender)
+s1.info()
+print("===============")
+print(s2.name)
+s3.info()
